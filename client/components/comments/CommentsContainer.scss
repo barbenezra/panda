@@ -1,0 +1,9 @@
+@import '../../globals/variables.scss';
+
+:local .container{
+    display: flex;
+    flex-direction: column;
+    width: $panel_width;
+    border: 1px solid #eee;
+    padding: 16px;
+}

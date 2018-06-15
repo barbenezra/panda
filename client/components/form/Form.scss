@@ -1,0 +1,29 @@
+@import '../../globals/variables.scss';
+
+:local .container{
+    display: flex;
+    flex-direction: column;
+    background: #eee;
+    width: $panel_width;
+    padding: 16px;
+}
+
+:local .input{
+    border: 1px solid #ccc;
+    margin-top: 8px;
+    padding: 8px;
+    
+    &:first-child {
+        margin-top: 0;
+    }
+}
+
+:local .button{
+    background: dodgerblue;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 8px;
+}
