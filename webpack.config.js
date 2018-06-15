@@ -59,8 +59,8 @@ module.exports = {
         extensions: ['.js', '.jsx'],
         modules: [
             path.resolve('./node_modules'),
-            path.resolve('./client/src'),
-            path.resolve('./client/src/components'),
+            path.resolve('./client'),
+            path.resolve('./client/components'),
             path.resolve('')
         ]
     }
