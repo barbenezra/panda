@@ -8,7 +8,7 @@ module.exports = {
     entry: {
         'app': [
             'webpack-hot-middleware/client?reload=true',
-            './client/src/index.js'
+            './client/index.js'
         ]
     },
     output: {
